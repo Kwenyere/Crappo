@@ -1,0 +1,217 @@
+
+body{
+    font-family: 'Oxanium', cursive;
+}
+h1{
+    font-weight: 700;
+    font-size: 900;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+
+/* title */
+#title{
+    background-color: #0D0D2B;
+    color: white;
+    
+}
+.title-text{
+    margin-top: 5vw;
+
+}
+.title-img{
+    width: 40vw;
+    
+    
+}
+.p-text{
+    color:white;
+}
+.main{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.title-text{
+    padding: 3.5rem 3.5rem;
+}
+
+.logo{
+    margin-left: 3vw;
+    
+}
+.accolades{
+    text-align: center;
+    margin-top: 5vw;
+}
+
+/* testimony */
+.testimony{
+    margin-bottom: 30vw;
+}
+.card-img{
+    width: 3vw;
+    align-self: center;
+    
+}
+/* why */
+
+
+.why-text {
+    margin-top: 7vw;
+    text-align: left;
+    
+}
+.why-h1{
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+.why-img {
+    width: 40vw;
+    margin-left: 5vw;
+}
+/* howmuch */
+.howmuch {
+text-align: center;
+margin-top: 5vw;
+line-height: 1.5;
+padding: 3.5rem 2.5rem;
+}
+.p-howmuch{
+    color: floralwhite;
+    
+}
+
+/* cta */
+.card{
+    text-align: center;
+    margin-top: 5vw;
+    margin-left: 5vw;
+    width: 18rem;
+    height: 30vw;
+    
+}
+.card-title{
+    margin-top: 10vw;
+}
+
+.card-img {
+    margin-top: 2vw;
+}
+.card:hover{
+    background-color:#0D0D2B;
+    color: #fff;
+}
+
+.cta-title{
+     text-align: center;
+     padding: 3.5rem 2.5rem;
+}
+/* Features */
+#Features{
+    background-color:#0D0D2B; 
+    color: #fff;
+    margin-top: 10vw;
+    
+}
+.Feature-title{
+    text-align: center;
+    padding: 3.5rem 2.5rem;
+}
+.Features-content1{
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+.feature-2-img{
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.feature-2{
+  margin-top: 5vw;
+}
+.feature-3{
+    margin-top: 10vw;
+}
+
+.feature-3-img{
+    width: 45vw;
+    margin-right: 5vw;
+}
+.feature-3-text{
+    padding: 3.5rem 3.5rem;
+}
+.Feature-p{
+    color: grey;
+}
+.feature-1-img{
+    width: 40vw;
+}
+
+
+
+/* newsletter */
+#newsletter{
+    background-color: #0D0D2B;
+    padding-bottom: 2vw;
+    
+}
+.newsletter-img{
+    margin-top: 5vw;
+    height: 35vh;
+    
+
+}
+.container {
+    position: relative;
+    
+  }
+  .newsletter-text{
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 2vw;
+    top: 8px;
+    left: 16px;
+    color: #fff;
+    text-align: left;
+  }
+  .newsletter-p{
+    line-height: 0;
+    font-size: small;
+    margin-top: 2vw;
+
+  }
+
+/* footer */
+#footer{
+    background-color:#0D0D2B; 
+    color: #fff;
+    padding: 3.5rem 2.5rem;
+    
+    
+}
+#copyright{
+    background-color: #0D0D2B;
+    color: #fff;
+    text-align: center;
+    
+}
+@media (max-width:1018px) {
+    body{
+        text-align: center;
+    }
+    .why-text{
+        text-align: center;
+    }
+    .why-h1{
+        font-size: 300;
+        font-weight: 800;
+    }
+  .card{
+    margin-left: 35vw;
+  }  
+}
